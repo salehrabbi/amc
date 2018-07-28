@@ -1,0 +1,10 @@
+/* XL Device :1200px. */
+/* LG Device :992px. */
+@media (max-width: 992px) {
+  .main-footer .footer-bottom {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; } }
+/* MD Device :768px. */
+/* Extra small Device. */
+/* SM Small Device :550px. */
