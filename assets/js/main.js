@@ -1,7 +1,14 @@
 
-$(document).ready(function () {
-    $('#main-menu').slicknav();
+
+$('#main-menu').slicknav({
+	label: '<i class="fa fa-bars" aria-hidden="true"></i>',
+    closedSymbol: '<i class="fa fa-angle-right" aria-hidden="true"></i>',
+    openedSymbol : '<i class="fa fa-angle-up" aria-hidden="true"></i>',
+	duration: 200,
+	closeOnClick : true,
+	allowParentLinks  : true,
 });
+
 
 $('document').ready(function() {
     $('.main-heder .main-menu ul#main-menu > li > ul').css({'min-height': $('.main-heder .main-menu ul#main-menu > li > ul > li > ul').innerHeight()});

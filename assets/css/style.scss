@@ -138,8 +138,7 @@ a:hover {
                     font-size: 16px;
                     text-transform: uppercase;
                     display: block;
-                    padding: 38px 35.9px;
-//                    transition: .3s;
+                    padding: 38px 35.9px; //                    transition: .3s;
                     &:hover {
                         background: #fff;
                     }
@@ -224,15 +223,78 @@ a:hover {
 
 }
 
-.slicknav_menu {
+.slicknav_menu,
+.logo.mobile {
     display: none;
 }
 
+.logo.mobile {
+    display: none;
+    position: absolute;
+    top: 15px;
+    left: 30px;
+    background: #FFA100;
+    width: 90%;
+    z-index: 5;
+}
 
+.slicknav_menu {
+    background: #FFA100;
+    min-height: 70px;
+    padding: 0 35px;
+    ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        ul {
+            padding-left: 20px;
+        }
+    }
+}
 
+.slicknav_menutxt {
+    float: right;
+    position: relative;
+    top: 10px;
+    font-size: 30px;
+    color: #000;
+    right: 0;
+    z-index: 6;
+}
 
+.slicknav_menu .slicknav_nav {
+    padding: 65px 0;
+    > li {
+        > a {
+            text-transform: uppercase;
+        }
+    }
+    li {
+        padding: 5px 0;
+        a {
+            color: #000;
+        }
+    }
+    .slicknav_open {
+        border-top: 2px solid #fff;
+        border-bottom: 2px solid #fff;
+        a {
+            color: #fff;
+        }
+    }
+}
 
+.slicknav_arrow {
+    font-size: 25px;
+    position: relative;
+    left: 10px;
+    top: 4px;
+    line-height: 1;
+}
 
+.slicknav_menu .slicknav_nav .slicknav_open a {
+	font-size: 14px;
+}
 
 
 

@@ -168,8 +168,62 @@ a:hover {
   .main-heder .main-menu.rid-main-menu ul#main-menu > li > a {
     padding: 38px 23.07px; }
 
-.slicknav_menu {
+.slicknav_menu,
+.logo.mobile {
   display: none; }
+
+.logo.mobile {
+  display: none;
+  position: absolute;
+  top: 15px;
+  left: 30px;
+  background: #FFA100;
+  width: 90%;
+  z-index: 5; }
+
+.slicknav_menu {
+  background: #FFA100;
+  min-height: 70px;
+  padding: 0 35px; }
+  .slicknav_menu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none; }
+    .slicknav_menu ul ul {
+      padding-left: 20px; }
+
+.slicknav_menutxt {
+  float: right;
+  position: relative;
+  top: 10px;
+  font-size: 30px;
+  color: #000;
+  right: 0;
+  z-index: 6; }
+
+.slicknav_menu .slicknav_nav {
+  padding: 65px 0; }
+  .slicknav_menu .slicknav_nav > li > a {
+    text-transform: uppercase; }
+  .slicknav_menu .slicknav_nav li {
+    padding: 5px 0; }
+    .slicknav_menu .slicknav_nav li a {
+      color: #000; }
+  .slicknav_menu .slicknav_nav .slicknav_open {
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff; }
+    .slicknav_menu .slicknav_nav .slicknav_open a {
+      color: #fff; }
+
+.slicknav_arrow {
+  font-size: 25px;
+  position: relative;
+  left: 10px;
+  top: 4px;
+  line-height: 1; }
+
+.slicknav_menu .slicknav_nav .slicknav_open a {
+  font-size: 14px; }
 
 .main-footer {
   background: #ececec; }
