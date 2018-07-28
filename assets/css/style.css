@@ -43,6 +43,23 @@ a:hover {
 /*=========================
   Header-top START
 ===========================*/
+.header-top .social {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: right;
+  padding: 5px 0;
+  padding-right: 81px; }
+  .header-top .social li {
+    display: inline-block;
+    margin: 0 2px; }
+    .header-top .social li a {
+      font-size: 25px; }
+.header-top .login {
+  position: absolute;
+  top: 0;
+  right: 0; }
+
 .main-heder .logo {
   width: 15%;
   float: left;
@@ -224,6 +241,18 @@ a:hover {
 
 .slicknav_menu .slicknav_nav .slicknav_open a {
   font-size: 14px; }
+
+.menu-width .main-menu ul#main-menu > li > a {
+  padding: 38px 29.7px; }
+.menu-width .main-menu ul#main-menu > li > ul {
+  width: 272px; }
+.menu-width .main-menu ul#main-menu > li > ul > li > ul {
+  width: 623px;
+  left: 272px; }
+.menu-width .main-menu.rid-main-menu ul#main-menu > li > a {
+  padding: 38px 17px; }
+.menu-width .search-here {
+  padding: 38px 31px; }
 
 .main-footer {
   background: #ececec; }

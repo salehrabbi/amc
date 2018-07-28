@@ -16,7 +16,7 @@
   .main-heder .search-here {
     padding: 38px 30px; } }
 @media (max-width: 1199px) {
-  .main-heder {
+  .main-heder, .header-top {
     display: none; }
 
   .logo.mobile {
